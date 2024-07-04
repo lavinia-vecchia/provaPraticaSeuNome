@@ -1,0 +1,68 @@
+.cabeca img{
+  width: 200px;
+  margin-right: 960px;
+ }
+ .cabeca{
+   background-color: grey;
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .escudo{
+   margin-left:30px ;
+   margin-right:30px ;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: grey;
+   border-radius: 10px;
+   
+ }
+ 
+ .nome{
+   margin-left:20px;
+ }
+ 
+ .ft{
+   margin-left:20px;
+ }
+ 
+ .apelido{
+   margin-left:20px;
+   margin-top: -10px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+   .cabeca img{
+     width: 100px;
+     margin-right: 85px;
+    }
+    .cabeca{
+      background-color: grey;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .escudo{
+     display: flex;
+      margin-left:30px ;
+      margin-right:30px ;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      background-color: grey;
+      border-radius: 10px;
+      
+    }
+    
+    .nome{
+      margin-left:20px;
+    }
+    
+    .ft{
+      margin-left:20px;
+    }
+    
+    .apelido{
+      margin-left:20px;
+      margin-top: -10px;
+    }
+ }
